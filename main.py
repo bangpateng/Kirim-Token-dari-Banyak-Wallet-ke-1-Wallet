@@ -4,7 +4,7 @@ import config
 import time
 
 def mulai():
-    data = pd.read_csv('private_keys_and_senders.csv')
+    data = pd.read_csv('dataiblis.csv')
     jumlah_pengirim = data.shape[0]
     for i in range(jumlah_pengirim):
         alamat_penerima = data.iloc[i]['alamat_penerima']
